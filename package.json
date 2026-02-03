@@ -1,0 +1,24 @@
+{
+  "name": "next.js_website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js website",
+  "type": "module",
+  "scripts": {
+  "dev": "NEXT_DISABLE_TURBOPACK=1 next dev",
+  "build": "next build",
+  "start": "next start"
+},
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "microcms-js-sdk": "^3.1.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.0",
+    "@types/react": "19.2.10",
+    "typescript": "^5.9.3"
+  }
+}
