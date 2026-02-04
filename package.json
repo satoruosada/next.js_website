@@ -5,12 +5,13 @@
   "description": "Next.js website",
   "type": "module",
   "scripts": {
-  "dev": "NEXT_DISABLE_TURBOPACK=1 next dev",
-  "build": "next build",
-  "start": "next start"
-},
+    "dev": "NEXT_DISABLE_TURBOPACK=1 next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "classnames": "^2.5.1",
+    "dayjs": "^1.11.10",
     "microcms-js-sdk": "^3.1.0",
     "next": "^16.1.6",
     "react": "^19.2.4",
