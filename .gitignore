@@ -16,3 +16,6 @@ yarn-error.log*
 
 # OS
 .DS_Store
+
+# local env files
+.env*.local

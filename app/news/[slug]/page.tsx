@@ -13,6 +13,9 @@ type Props = {
     }>;
 };
 
+export const revalidate = 0;
+
+
 export default async function Page({ params, searchParams }: Props) {
     const { slug } = await params;
     const { dk } = await searchParams;
